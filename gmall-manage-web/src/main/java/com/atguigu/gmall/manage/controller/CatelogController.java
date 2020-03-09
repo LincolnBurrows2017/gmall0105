@@ -27,7 +27,7 @@ public class CatelogController {
     @ResponseBody
     public List<PmsBaseCatalog1> getCatalog1(){
         List<PmsBaseCatalog1> catelog1=catelogService.getCatelog1();
-        System.out.println(catelog1);
+        //System.out.println(catelog1);
         return catelog1;
     }
 

@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class PmsBaseAttrInfo implements Serializable {
 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//表示返回主键
     @Id
     @Column
     private String id;
